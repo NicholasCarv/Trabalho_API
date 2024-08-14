@@ -1,0 +1,50 @@
+[
+  {
+    "ContainingType": "YourNamespace.Controllers.FreteController",
+    "Method": "CalcularFrete",
+    "RelativePath": "api/Frete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "produto",
+        "Type": "YourNamespace.Controllers.ProdutoInputModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Aula001.Controllers.PessoaController",
+    "Method": "CalcularIMC",
+    "RelativePath": "api/Pessoa/calcular-imc",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pessoa",
+        "Type": "Aula001.Controllers.Pessoa",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Aula001.Controllers.PessoaController",
+    "Method": "ConsultaTabelaIMC",
+    "RelativePath": "api/Pessoa/consulta-tabela-imc",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "imc",
+        "Type": "System.Double",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
